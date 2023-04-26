@@ -1,6 +1,8 @@
 # node-fastify-api-boilerplate
 minimal boilerplate for node + fastify api
 
+- uses ts-node + nodemon for watching file changes
+
 ### quickstart
 ```
 yarn

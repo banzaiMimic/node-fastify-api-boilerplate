@@ -1,9 +1,10 @@
 {
-  "name": "api.icarus-ts",
+  "name": "node-fastify-api-boilerplate",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
   "type": "module",
+  "author": "banzaiMimic",
   "dependencies": {
     "fastify": "^4.16.0"
   },

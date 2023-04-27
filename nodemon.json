@@ -6,11 +6,8 @@
     "node_modules/**/node_modules",
     "src/**/*.test.ts"
   ],
-  "exec": "ts-node ./src/main.ts",
+  "exec": "ts-node ./src/index.ts",
   "env": {
     "NODE_ENV": "development"
-  },
-  "events": {
-    "crash": "sh -c 'lsof -i :${PORT:-3001} -t | xargs kill'"
   }
 }

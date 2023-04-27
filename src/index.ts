@@ -1,6 +1,10 @@
 import fastify from 'fastify'
 
+import demoImport from './DemoImport/demoImport'
+
 const server = fastify()
+
+demoImport.dev()
 
 server.get('/ping', async (request: any, reply) => {
   const {

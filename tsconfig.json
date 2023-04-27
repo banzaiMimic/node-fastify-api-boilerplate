@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"]
+    },
     "module": "ESNext",
     "esModuleInterop": true,
     "target": "ESNext",
@@ -13,10 +17,10 @@
     "useUnknownInCatchVariables": false,
     "inlineSourceMap": true,
     "noImplicitThis": false,
-    "removeComments": true,
+    "removeComments": true
   },
   "ts-node": {
-      "esm": true
+    "esm": true
   },
   "lib": ["esnext"]
 }

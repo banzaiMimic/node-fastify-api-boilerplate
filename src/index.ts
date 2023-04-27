@@ -2,8 +2,11 @@ import fastify from 'fastify'
 
 const server = fastify()
 
-server.get('/ping', async (request, reply) => {
-  return 'pong!!\n'
+server.get('/ping', async (request: any, reply) => {
+  const {
+    someParam
+  } = request.body
+  return reply.send(`pong!! ${someParam}`)
 })
 
 server.listen({ port: 8080 }, (err, address) => {

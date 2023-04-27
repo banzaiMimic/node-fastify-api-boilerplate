@@ -1,6 +1,6 @@
 import fastify from 'fastify'
 
-import demoImport from './DemoImport/demoImport.js'
+import demoImport from './DemoImport/demoImport'
 
 const server = fastify()
 

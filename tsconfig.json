@@ -5,9 +5,9 @@
     "paths": {
       "*": ["src/*"]
     },
-    "module": "ESNext",
+    "module": "CommonJS",
     "esModuleInterop": true,
-    "target": "ESNext",
+    "target": "ES5",
     "moduleResolution": "Node",
     "outDir": "dist",
     "forceConsistentCasingInFileNames": true,

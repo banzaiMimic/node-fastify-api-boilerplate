@@ -1,0 +1,12 @@
+{
+  "name": "your-app-name",
+  "cwd": "./",
+  "script": "./dist/main.js",
+  "watch": ["dist"],
+  "watch_delay": 1000,
+  "instances": "1",
+  "env": {
+    "NODE_ENV" : "prd"
+  },
+  "env_dev": { "NODE_ENV" : "tst" }
+}

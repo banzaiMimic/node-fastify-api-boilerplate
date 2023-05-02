@@ -16,6 +16,8 @@ npm 9.5.1
 ```
 
 ### github-actions build & deploy
+will build on gh actions runner and send result `/dist` folder to server
+
 .github/workflows/deploy.yml
 ```
 name: Build & Deploy
